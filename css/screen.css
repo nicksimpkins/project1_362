@@ -1,26 +1,75 @@
 html {
-
+    height: 100%;
 }
 body {
-    
+    background-color: #B3995B;
 }
-
-
-
-
-
-
-
-
-
+label {
+    font-family: 'Raleway', sans-serif;
+    color: #FFEFC9;
+}
+#signup {
+    text-align: center;
+    padding-top: 75px;
+}
+.header {
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 30px;
+    color: #FFEFC9;
+}
+#email {
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+}
+#user_name {
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+}
+#password {
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+}
+.emaildiv {
+    padding-bottom: 10px;
+}
+.userdiv {
+    padding-bottom: 10px;
+}
+.passdiv {
+    padding-bottom: 10px;
+}
+.checkdiv {
+    padding-top: 20px;
+}
+.button {
+    color: #B3995B;
+    background-color: #ffffff;
+    border: none;
+    height: 30px;
+    width: 75px;
+    border-radius: 3px;
+}
+.button:hover {
+    color: #ffffff;
+    background-color: #917739;
+}
 @media screen and (max-width: 600px) {
-    body{
-        background-image: url("../image/background.png");
+    .header {
+        font-size: 25px;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 25px;
+        color: #FFEFC9;
     }
 }
 
 @media screen and (min-width: 600px) {
-    body{
-        background-image: url("../image/background.png");
+    html {
+        height: 100%;
+        overflow-x: hidden;
+        overflow-y: auto;
     }
 }

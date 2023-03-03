@@ -4,19 +4,36 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Project 1</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap" rel="stylesheet">
     <link rel="stylesheet" media="screen" href="css/meyers_and_normalize-form_reset.css">
     <link rel="stylesheet" media="screen" href="css/screen.css">
-
-
-
+    <script src="js/script.js" async></script>
 </head>
 <body>
-
-
-
-
-
-
-
+    <form id="signup" action="#null" method="get" autocomplete="on">
+        <p class="header">Sign Up for WebDev Newsletter</p>
+        <div class="emaildiv">
+            <label>Email</label>
+            <input type="email" id="email" name="email" pattern="^.+@.+$" placeholder="example@email.com">
+        </div>
+        <div class="userdiv">
+            <label>Username</label>
+            <input type="username" id="user_name" name="username" placeholder="Username">
+        </div>
+        <div class="passdiv">
+            <label>Password</label>
+            <input type="password" id="password" name="password" placeholder="Password">
+        </div>
+        <div>
+            <button type="submit" class="button" id="button">Sign Up</button>
+        </div>
+        <div class="checkdiv">
+            <input type="checkbox" id="check" name="check1" value="agree">
+            <label>By checking this box you allow us to contact you with a bunch of stuff not related to the newsletter and sell your data to dystopian spyware companies overseas.</label>
+        </div>
+    </form>
 </body>
 </html>
